@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad add</title>
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20220511/ourmid/pngtree-letter-n-logo-png-png-image_4570904.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="form-group">
+            <label for="input-title">Title</label>
+            <input type="text" class="form-control" id="input-title" placeholder="Enter title...">
+        </div>
+        <div class="form-group">
+            <label for="input-description">Description</label>
+            <input type="text" class="form-control" id="input-description" placeholder="Enter description...">
+        </div>
+        <div class="form-group">
+            <label for="input-price">Price</label>
+            <input type="number" class="form-control" id="input-price" placeholder="Enter price...">
+        </div>
+        <div class="form-group">
+            <label for="input-image">Image</label>
+            <input type="text" class="form-control" id="input-image" placeholder="Enter image URL...">
+        </div>
+        <div class="form-group">
+            <label for="ctg-select">Category</label>
+            <select class="form-control" id="ctg-select">
+            </select>
+        </div>
+        <button class="btn btn-primary" id="add-btn">Add</button>
+        <p id="error-message">You must enter data.</p>
+    </div>
+
+    <script src="add_ad.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

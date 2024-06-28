@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad edit</title>
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20220511/ourmid/pngtree-letter-n-logo-png-png-image_4570904.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form>
+                    <div class="form-group">
+                        <label for="input-title">Title</label>
+                        <input type="text" class="form-control" id="input-title">
+                    </div>
+                    <div class="form-group">
+                        <label for="input-description">Description</label>
+                        <input type="text" class="form-control" id="input-description">
+                    </div>
+                    <div class="form-group">
+                        <label for="input-price">Price</label>
+                        <input type="number" class="form-control" id="input-price">
+                    </div>
+                    <div class="form-group">
+                        <label for="input-image">Image</label>
+                        <input type="text" class="form-control" id="input-image">
+                    </div>
+                    <div class="form-group">
+                        <label for="ctg-select">Category</label>
+                        <select class="form-control" id="ctg-select"></select>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-block" id="edit-btn">Edit</button>
+                    <p class="text-danger" id="error-message">You must enter data.</p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="ad_edit.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

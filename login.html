@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20220511/ourmid/pngtree-letter-n-logo-png-png-image_4570904.png" type="image/png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register here</a>
+            </li>
+          </ul>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="text-center">Log in</h1>
+                <div class="mb-3">
+                    <label for="input-username" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="input-username" required>
+                </div>
+                <div class="mb-3">
+                    <label for="input-password" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="input-password" required>
+                    <p id="show"></p>
+                </div>
+                <button id="btn-login" class="btn btn-primary btn-block btn-sm">Log in</button>
+                <a href="/register.html" id="register-link" class="btn btn-link btn-block">Register here</a>
+            </div>
+        </div>
+    </div>
+    <script src="login.js" type="module"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
